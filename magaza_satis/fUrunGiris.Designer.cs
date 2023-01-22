@@ -43,7 +43,6 @@ namespace magaza_satis
             this.lStandart10 = new magaza_satis.lStandart();
             this.tUrunAra = new magaza_satis.tStandart();
             this.lStandart9 = new magaza_satis.lStandart();
-            this.bRaporAl = new magaza_satis.bStandart();
             this.bKaydet = new magaza_satis.bStandart();
             this.bIptal = new magaza_satis.bStandart();
             this.bBarkodOlustur = new magaza_satis.bStandart();
@@ -77,6 +76,7 @@ namespace magaza_satis
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -91,7 +91,6 @@ namespace magaza_satis
             this.splitContainer1.Panel1.Controls.Add(this.lStandart10);
             this.splitContainer1.Panel1.Controls.Add(this.tUrunAra);
             this.splitContainer1.Panel1.Controls.Add(this.lStandart9);
-            this.splitContainer1.Panel1.Controls.Add(this.bRaporAl);
             this.splitContainer1.Panel1.Controls.Add(this.bKaydet);
             this.splitContainer1.Panel1.Controls.Add(this.bIptal);
             this.splitContainer1.Panel1.Controls.Add(this.bBarkodOlustur);
@@ -113,16 +112,18 @@ namespace magaza_satis
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.gridUrunler);
-            this.splitContainer1.Size = new System.Drawing.Size(1235, 762);
+            this.splitContainer1.Size = new System.Drawing.Size(926, 619);
             this.splitContainer1.SplitterDistance = 359;
+            this.splitContainer1.SplitterWidth = 3;
             this.splitContainer1.TabIndex = 0;
             // 
             // tAlisFiyati
             // 
             this.tAlisFiyati.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.tAlisFiyati.Location = new System.Drawing.Point(619, 58);
+            this.tAlisFiyati.Location = new System.Drawing.Point(610, 51);
+            this.tAlisFiyati.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tAlisFiyati.Name = "tAlisFiyati";
-            this.tAlisFiyati.Size = new System.Drawing.Size(115, 30);
+            this.tAlisFiyati.Size = new System.Drawing.Size(87, 26);
             this.tAlisFiyati.TabIndex = 4;
             this.tAlisFiyati.Text = "0";
             this.tAlisFiyati.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -130,9 +131,10 @@ namespace magaza_satis
             // tSatisFiyati
             // 
             this.tSatisFiyati.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.tSatisFiyati.Location = new System.Drawing.Point(619, 94);
+            this.tSatisFiyati.Location = new System.Drawing.Point(610, 80);
+            this.tSatisFiyati.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tSatisFiyati.Name = "tSatisFiyati";
-            this.tSatisFiyati.Size = new System.Drawing.Size(115, 30);
+            this.tSatisFiyati.Size = new System.Drawing.Size(87, 26);
             this.tSatisFiyati.TabIndex = 5;
             this.tSatisFiyati.Text = "0";
             this.tSatisFiyati.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -143,9 +145,10 @@ namespace magaza_satis
             this.lKullanici.AutoSize = true;
             this.lKullanici.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lKullanici.ForeColor = System.Drawing.Color.DarkCyan;
-            this.lKullanici.Location = new System.Drawing.Point(119, 13);
+            this.lKullanici.Location = new System.Drawing.Point(89, 11);
+            this.lKullanici.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lKullanici.Name = "lKullanici";
-            this.lKullanici.Size = new System.Drawing.Size(112, 25);
+            this.lKullanici.Size = new System.Drawing.Size(92, 20);
             this.lKullanici.TabIndex = 26;
             this.lKullanici.Text = "lStandart12";
             // 
@@ -154,9 +157,10 @@ namespace magaza_satis
             this.lblKullaniciStd.AutoSize = true;
             this.lblKullaniciStd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lblKullaniciStd.ForeColor = System.Drawing.Color.DarkCyan;
-            this.lblKullaniciStd.Location = new System.Drawing.Point(22, 13);
+            this.lblKullaniciStd.Location = new System.Drawing.Point(16, 11);
+            this.lblKullaniciStd.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblKullaniciStd.Name = "lblKullaniciStd";
-            this.lblKullaniciStd.Size = new System.Drawing.Size(96, 25);
+            this.lblKullaniciStd.Size = new System.Drawing.Size(74, 20);
             this.lblKullaniciStd.TabIndex = 25;
             this.lblKullaniciStd.Text = "Kullanıcı :";
             // 
@@ -167,10 +171,10 @@ namespace magaza_satis
             this.bUrunGrubuEkle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bUrunGrubuEkle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.bUrunGrubuEkle.ForeColor = System.Drawing.Color.White;
-            this.bUrunGrubuEkle.Location = new System.Drawing.Point(124, 208);
+            this.bUrunGrubuEkle.Location = new System.Drawing.Point(93, 169);
             this.bUrunGrubuEkle.Margin = new System.Windows.Forms.Padding(0);
             this.bUrunGrubuEkle.Name = "bUrunGrubuEkle";
-            this.bUrunGrubuEkle.Size = new System.Drawing.Size(118, 94);
+            this.bUrunGrubuEkle.Size = new System.Drawing.Size(88, 76);
             this.bUrunGrubuEkle.TabIndex = 10;
             this.bUrunGrubuEkle.Text = "Ürün Grubu Ekle";
             this.bUrunGrubuEkle.UseVisualStyleBackColor = false;
@@ -180,10 +184,11 @@ namespace magaza_satis
             // 
             this.tUrunSayisi.BackColor = System.Drawing.Color.White;
             this.tUrunSayisi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.tUrunSayisi.Location = new System.Drawing.Point(619, 316);
+            this.tUrunSayisi.Location = new System.Drawing.Point(610, 261);
+            this.tUrunSayisi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tUrunSayisi.Name = "tUrunSayisi";
             this.tUrunSayisi.ReadOnly = true;
-            this.tUrunSayisi.Size = new System.Drawing.Size(115, 30);
+            this.tUrunSayisi.Size = new System.Drawing.Size(87, 26);
             this.tUrunSayisi.TabIndex = 23;
             this.tUrunSayisi.TabStop = false;
             this.tUrunSayisi.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -193,9 +198,10 @@ namespace magaza_satis
             this.lStandart10.AutoSize = true;
             this.lStandart10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lStandart10.ForeColor = System.Drawing.Color.DarkCyan;
-            this.lStandart10.Location = new System.Drawing.Point(506, 319);
+            this.lStandart10.Location = new System.Drawing.Point(526, 263);
+            this.lStandart10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lStandart10.Name = "lStandart10";
-            this.lStandart10.Size = new System.Drawing.Size(112, 25);
+            this.lStandart10.Size = new System.Drawing.Size(89, 20);
             this.lStandart10.TabIndex = 22;
             this.lStandart10.Text = "Ürün Sayısı";
             // 
@@ -203,9 +209,10 @@ namespace magaza_satis
             // 
             this.tUrunAra.BackColor = System.Drawing.Color.White;
             this.tUrunAra.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.tUrunAra.Location = new System.Drawing.Point(124, 319);
+            this.tUrunAra.Location = new System.Drawing.Point(93, 259);
+            this.tUrunAra.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tUrunAra.Name = "tUrunAra";
-            this.tUrunAra.Size = new System.Drawing.Size(250, 30);
+            this.tUrunAra.Size = new System.Drawing.Size(188, 26);
             this.tUrunAra.TabIndex = 12;
             this.tUrunAra.TextChanged += new System.EventHandler(this.tUrunAra_TextChanged);
             // 
@@ -214,26 +221,12 @@ namespace magaza_satis
             this.lStandart9.AutoSize = true;
             this.lStandart9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lStandart9.ForeColor = System.Drawing.Color.DarkCyan;
-            this.lStandart9.Location = new System.Drawing.Point(26, 319);
+            this.lStandart9.Location = new System.Drawing.Point(20, 259);
+            this.lStandart9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lStandart9.Name = "lStandart9";
-            this.lStandart9.Size = new System.Drawing.Size(90, 25);
+            this.lStandart9.Size = new System.Drawing.Size(73, 20);
             this.lStandart9.TabIndex = 20;
             this.lStandart9.Text = "Ürün Ara";
-            // 
-            // bRaporAl
-            // 
-            this.bRaporAl.BackColor = System.Drawing.Color.Maroon;
-            this.bRaporAl.FlatAppearance.BorderColor = System.Drawing.Color.Maroon;
-            this.bRaporAl.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bRaporAl.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.bRaporAl.ForeColor = System.Drawing.Color.White;
-            this.bRaporAl.Location = new System.Drawing.Point(929, 58);
-            this.bRaporAl.Margin = new System.Windows.Forms.Padding(0);
-            this.bRaporAl.Name = "bRaporAl";
-            this.bRaporAl.Size = new System.Drawing.Size(127, 141);
-            this.bRaporAl.TabIndex = 19;
-            this.bRaporAl.Text = "Rapor Al";
-            this.bRaporAl.UseVisualStyleBackColor = false;
             // 
             // bKaydet
             // 
@@ -242,10 +235,10 @@ namespace magaza_satis
             this.bKaydet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bKaydet.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.bKaydet.ForeColor = System.Drawing.Color.White;
-            this.bKaydet.Location = new System.Drawing.Point(764, 136);
+            this.bKaydet.Location = new System.Drawing.Point(719, 114);
             this.bKaydet.Margin = new System.Windows.Forms.Padding(0);
             this.bKaydet.Name = "bKaydet";
-            this.bKaydet.Size = new System.Drawing.Size(127, 68);
+            this.bKaydet.Size = new System.Drawing.Size(95, 55);
             this.bKaydet.TabIndex = 8;
             this.bKaydet.Text = "Kaydet";
             this.bKaydet.UseVisualStyleBackColor = false;
@@ -259,10 +252,10 @@ namespace magaza_satis
             this.bIptal.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.bIptal.ForeColor = System.Drawing.Color.White;
             this.bIptal.Image = global::magaza_satis.Properties.Resources.iptal;
-            this.bIptal.Location = new System.Drawing.Point(764, 58);
+            this.bIptal.Location = new System.Drawing.Point(719, 51);
             this.bIptal.Margin = new System.Windows.Forms.Padding(0);
             this.bIptal.Name = "bIptal";
-            this.bIptal.Size = new System.Drawing.Size(127, 71);
+            this.bIptal.Size = new System.Drawing.Size(95, 58);
             this.bIptal.TabIndex = 9;
             this.bIptal.Text = "İptal";
             this.bIptal.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -275,10 +268,10 @@ namespace magaza_satis
             this.bBarkodOlustur.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bBarkodOlustur.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.bBarkodOlustur.ForeColor = System.Drawing.Color.White;
-            this.bBarkodOlustur.Location = new System.Drawing.Point(255, 208);
+            this.bBarkodOlustur.Location = new System.Drawing.Point(191, 169);
             this.bBarkodOlustur.Margin = new System.Windows.Forms.Padding(0);
             this.bBarkodOlustur.Name = "bBarkodOlustur";
-            this.bBarkodOlustur.Size = new System.Drawing.Size(119, 95);
+            this.bBarkodOlustur.Size = new System.Drawing.Size(89, 77);
             this.bBarkodOlustur.TabIndex = 11;
             this.bBarkodOlustur.Text = "Barkod Oluştur";
             this.bBarkodOlustur.UseVisualStyleBackColor = false;
@@ -288,9 +281,10 @@ namespace magaza_satis
             // 
             this.tKdvOrani.BackColor = System.Drawing.Color.White;
             this.tKdvOrani.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.tKdvOrani.Location = new System.Drawing.Point(619, 174);
+            this.tKdvOrani.Location = new System.Drawing.Point(610, 145);
+            this.tKdvOrani.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tKdvOrani.Name = "tKdvOrani";
-            this.tKdvOrani.Size = new System.Drawing.Size(115, 30);
+            this.tKdvOrani.Size = new System.Drawing.Size(87, 26);
             this.tKdvOrani.TabIndex = 7;
             this.tKdvOrani.Text = "8";
             this.tKdvOrani.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -299,9 +293,10 @@ namespace magaza_satis
             // 
             this.tMiktar.BackColor = System.Drawing.Color.White;
             this.tMiktar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.tMiktar.Location = new System.Drawing.Point(619, 136);
+            this.tMiktar.Location = new System.Drawing.Point(610, 114);
+            this.tMiktar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tMiktar.Name = "tMiktar";
-            this.tMiktar.Size = new System.Drawing.Size(115, 30);
+            this.tMiktar.Size = new System.Drawing.Size(87, 26);
             this.tMiktar.TabIndex = 6;
             this.tMiktar.Text = "0";
             this.tMiktar.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -311,9 +306,10 @@ namespace magaza_satis
             this.lStandart8.AutoSize = true;
             this.lStandart8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lStandart8.ForeColor = System.Drawing.Color.DarkCyan;
-            this.lStandart8.Location = new System.Drawing.Point(506, 174);
+            this.lStandart8.Location = new System.Drawing.Point(526, 145);
+            this.lStandart8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lStandart8.Name = "lStandart8";
-            this.lStandart8.Size = new System.Drawing.Size(100, 25);
+            this.lStandart8.Size = new System.Drawing.Size(77, 20);
             this.lStandart8.TabIndex = 11;
             this.lStandart8.Text = "Kdv Oranı";
             // 
@@ -322,9 +318,10 @@ namespace magaza_satis
             this.lStandart7.AutoSize = true;
             this.lStandart7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lStandart7.ForeColor = System.Drawing.Color.DarkCyan;
-            this.lStandart7.Location = new System.Drawing.Point(548, 135);
+            this.lStandart7.Location = new System.Drawing.Point(557, 114);
+            this.lStandart7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lStandart7.Name = "lStandart7";
-            this.lStandart7.Size = new System.Drawing.Size(65, 25);
+            this.lStandart7.Size = new System.Drawing.Size(52, 20);
             this.lStandart7.TabIndex = 10;
             this.lStandart7.Text = "Miktar";
             // 
@@ -333,9 +330,10 @@ namespace magaza_satis
             this.lStandart6.AutoSize = true;
             this.lStandart6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lStandart6.ForeColor = System.Drawing.Color.DarkCyan;
-            this.lStandart6.Location = new System.Drawing.Point(506, 99);
+            this.lStandart6.Location = new System.Drawing.Point(526, 84);
+            this.lStandart6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lStandart6.Name = "lStandart6";
-            this.lStandart6.Size = new System.Drawing.Size(107, 25);
+            this.lStandart6.Size = new System.Drawing.Size(86, 20);
             this.lStandart6.TabIndex = 9;
             this.lStandart6.Text = "Satış Fiyatı";
             // 
@@ -344,9 +342,10 @@ namespace magaza_satis
             this.lStandart5.AutoSize = true;
             this.lStandart5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lStandart5.ForeColor = System.Drawing.Color.DarkCyan;
-            this.lStandart5.Location = new System.Drawing.Point(518, 63);
+            this.lStandart5.Location = new System.Drawing.Point(534, 55);
+            this.lStandart5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lStandart5.Name = "lStandart5";
-            this.lStandart5.Size = new System.Drawing.Size(95, 25);
+            this.lStandart5.Size = new System.Drawing.Size(75, 20);
             this.lStandart5.TabIndex = 8;
             this.lStandart5.Text = "Alış Fiyatı";
             // 
@@ -354,27 +353,30 @@ namespace magaza_satis
             // 
             this.tAciklama.BackColor = System.Drawing.Color.White;
             this.tAciklama.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.tAciklama.Location = new System.Drawing.Point(124, 135);
+            this.tAciklama.Location = new System.Drawing.Point(93, 110);
+            this.tAciklama.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tAciklama.Name = "tAciklama";
-            this.tAciklama.Size = new System.Drawing.Size(250, 30);
+            this.tAciklama.Size = new System.Drawing.Size(188, 26);
             this.tAciklama.TabIndex = 2;
             // 
             // tUrunAdi
             // 
             this.tUrunAdi.BackColor = System.Drawing.Color.White;
             this.tUrunAdi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.tUrunAdi.Location = new System.Drawing.Point(124, 99);
+            this.tUrunAdi.Location = new System.Drawing.Point(93, 80);
+            this.tUrunAdi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tUrunAdi.Name = "tUrunAdi";
-            this.tUrunAdi.Size = new System.Drawing.Size(250, 30);
+            this.tUrunAdi.Size = new System.Drawing.Size(188, 26);
             this.tUrunAdi.TabIndex = 1;
             // 
             // tBarkod
             // 
             this.tBarkod.BackColor = System.Drawing.Color.White;
             this.tBarkod.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.tBarkod.Location = new System.Drawing.Point(124, 63);
+            this.tBarkod.Location = new System.Drawing.Point(93, 51);
+            this.tBarkod.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tBarkod.Name = "tBarkod";
-            this.tBarkod.Size = new System.Drawing.Size(250, 30);
+            this.tBarkod.Size = new System.Drawing.Size(188, 26);
             this.tBarkod.TabIndex = 0;
             this.tBarkod.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tBarkod_KeyDown);
             // 
@@ -383,9 +385,10 @@ namespace magaza_satis
             this.lStandart4.AutoSize = true;
             this.lStandart4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lStandart4.ForeColor = System.Drawing.Color.DarkCyan;
-            this.lStandart4.Location = new System.Drawing.Point(5, 174);
+            this.lStandart4.Location = new System.Drawing.Point(4, 141);
+            this.lStandart4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lStandart4.Name = "lStandart4";
-            this.lStandart4.Size = new System.Drawing.Size(113, 25);
+            this.lStandart4.Size = new System.Drawing.Size(93, 20);
             this.lStandart4.TabIndex = 4;
             this.lStandart4.Text = "Ürün Grubu";
             // 
@@ -393,9 +396,10 @@ namespace magaza_satis
             // 
             this.cmbUrunGrubu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cmbUrunGrubu.FormattingEnabled = true;
-            this.cmbUrunGrubu.Location = new System.Drawing.Point(124, 171);
+            this.cmbUrunGrubu.Location = new System.Drawing.Point(93, 139);
+            this.cmbUrunGrubu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbUrunGrubu.Name = "cmbUrunGrubu";
-            this.cmbUrunGrubu.Size = new System.Drawing.Size(250, 33);
+            this.cmbUrunGrubu.Size = new System.Drawing.Size(188, 28);
             this.cmbUrunGrubu.TabIndex = 3;
             // 
             // lStandart3
@@ -403,9 +407,10 @@ namespace magaza_satis
             this.lStandart3.AutoSize = true;
             this.lStandart3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lStandart3.ForeColor = System.Drawing.Color.DarkCyan;
-            this.lStandart3.Location = new System.Drawing.Point(26, 135);
+            this.lStandart3.Location = new System.Drawing.Point(20, 110);
+            this.lStandart3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lStandart3.Name = "lStandart3";
-            this.lStandart3.Size = new System.Drawing.Size(92, 25);
+            this.lStandart3.Size = new System.Drawing.Size(73, 20);
             this.lStandart3.TabIndex = 2;
             this.lStandart3.Text = "Açıklama";
             // 
@@ -414,9 +419,10 @@ namespace magaza_satis
             this.lStandart2.AutoSize = true;
             this.lStandart2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lStandart2.ForeColor = System.Drawing.Color.DarkCyan;
-            this.lStandart2.Location = new System.Drawing.Point(30, 99);
+            this.lStandart2.Location = new System.Drawing.Point(22, 80);
+            this.lStandart2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lStandart2.Name = "lStandart2";
-            this.lStandart2.Size = new System.Drawing.Size(88, 25);
+            this.lStandart2.Size = new System.Drawing.Size(71, 20);
             this.lStandart2.TabIndex = 1;
             this.lStandart2.Text = "Ürün Adı";
             // 
@@ -425,9 +431,10 @@ namespace magaza_satis
             this.lStandart1.AutoSize = true;
             this.lStandart1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lStandart1.ForeColor = System.Drawing.Color.DarkCyan;
-            this.lStandart1.Location = new System.Drawing.Point(44, 63);
+            this.lStandart1.Location = new System.Drawing.Point(33, 51);
+            this.lStandart1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lStandart1.Name = "lStandart1";
-            this.lStandart1.Size = new System.Drawing.Size(74, 25);
+            this.lStandart1.Size = new System.Drawing.Size(60, 20);
             this.lStandart1.TabIndex = 0;
             this.lStandart1.Text = "Barkod";
             // 
@@ -460,6 +467,7 @@ namespace magaza_satis
             this.gridUrunler.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridUrunler.EnableHeadersVisualStyles = false;
             this.gridUrunler.Location = new System.Drawing.Point(0, 0);
+            this.gridUrunler.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gridUrunler.Name = "gridUrunler";
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
@@ -477,7 +485,7 @@ namespace magaza_satis
             this.gridUrunler.RowTemplate.DefaultCellStyle.SelectionForeColor = System.Drawing.Color.Black;
             this.gridUrunler.RowTemplate.Height = 30;
             this.gridUrunler.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.gridUrunler.Size = new System.Drawing.Size(1235, 399);
+            this.gridUrunler.Size = new System.Drawing.Size(926, 257);
             this.gridUrunler.TabIndex = 0;
             this.gridUrunler.TabStop = false;
             // 
@@ -487,22 +495,23 @@ namespace magaza_satis
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.silToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(211, 56);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(87, 26);
             // 
             // silToolStripMenuItem
             // 
             this.silToolStripMenuItem.Name = "silToolStripMenuItem";
-            this.silToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.silToolStripMenuItem.Size = new System.Drawing.Size(86, 22);
             this.silToolStripMenuItem.Text = "Sil";
             this.silToolStripMenuItem.Click += new System.EventHandler(this.silToolStripMenuItem_Click);
             // 
             // fUrunGirisEkrani
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Info;
-            this.ClientSize = new System.Drawing.Size(1235, 762);
+            this.ClientSize = new System.Drawing.Size(926, 619);
             this.Controls.Add(this.splitContainer1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "fUrunGirisEkrani";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ürün Giriş Ekranı";
@@ -537,7 +546,6 @@ namespace magaza_satis
         private lStandart lStandart10;
         private tStandart tUrunAra;
         private lStandart lStandart9;
-        private bStandart bRaporAl;
         private bStandart bKaydet;
         private bStandart bIptal;
         private bStandart bBarkodOlustur;
