@@ -50,6 +50,7 @@ namespace magaza_satis
             this.lStandart1 = new magaza_satis.lStandart();
             this.lUrunGrubu = new magaza_satis.lStandart();
             this.lFiltrelemeTuru = new magaza_satis.lStandart();
+            this.lKullanici = new magaza_satis.lStandart();
             this.tUrunAra = new magaza_satis.tStandart();
             this.lUrunAra = new magaza_satis.lStandart();
             this.gridListe = new magaza_satis.gridOzel();
@@ -96,7 +97,8 @@ namespace magaza_satis
             // 
             this.panelIslemTuru.Controls.Add(this.cmbIslemTuru);
             this.panelIslemTuru.Controls.Add(this.lIslemTuru);
-            this.panelIslemTuru.Location = new System.Drawing.Point(3, 5);
+            this.panelIslemTuru.Location = new System.Drawing.Point(2, 4);
+            this.panelIslemTuru.Margin = new System.Windows.Forms.Padding(2);
             this.panelIslemTuru.Name = "panelIslemTuru";
             this.panelIslemTuru.Size = new System.Drawing.Size(309, 87);
             this.panelIslemTuru.TabIndex = 0;
@@ -109,9 +111,10 @@ namespace magaza_satis
             this.cmbIslemTuru.Items.AddRange(new object[] {
             "Stok Durumu",
             "Stok Giriş İzleme"});
-            this.cmbIslemTuru.Location = new System.Drawing.Point(3, 45);
+            this.cmbIslemTuru.Location = new System.Drawing.Point(2, 37);
+            this.cmbIslemTuru.Margin = new System.Windows.Forms.Padding(2);
             this.cmbIslemTuru.Name = "cmbIslemTuru";
-            this.cmbIslemTuru.Size = new System.Drawing.Size(294, 33);
+            this.cmbIslemTuru.Size = new System.Drawing.Size(222, 28);
             this.cmbIslemTuru.TabIndex = 1;
             // 
             // panelTarihler
@@ -120,7 +123,8 @@ namespace magaza_satis
             this.panelTarihler.Controls.Add(this.lStandart2);
             this.panelTarihler.Controls.Add(this.dateBaslangic);
             this.panelTarihler.Controls.Add(this.lStandart1);
-            this.panelTarihler.Location = new System.Drawing.Point(3, 345);
+            this.panelTarihler.Location = new System.Drawing.Point(2, 280);
+            this.panelTarihler.Margin = new System.Windows.Forms.Padding(2);
             this.panelTarihler.Name = "panelTarihler";
             this.panelTarihler.Size = new System.Drawing.Size(309, 162);
             this.panelTarihler.TabIndex = 7;
@@ -128,7 +132,8 @@ namespace magaza_satis
             // dateBitis
             // 
             this.dateBitis.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.dateBitis.Location = new System.Drawing.Point(8, 125);
+            this.dateBitis.Location = new System.Drawing.Point(6, 102);
+            this.dateBitis.Margin = new System.Windows.Forms.Padding(2);
             this.dateBitis.Name = "dateBitis";
             this.dateBitis.Size = new System.Drawing.Size(289, 30);
             this.dateBitis.TabIndex = 2;
@@ -136,7 +141,8 @@ namespace magaza_satis
             // dateBaslangic
             // 
             this.dateBaslangic.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.dateBaslangic.Location = new System.Drawing.Point(9, 50);
+            this.dateBaslangic.Location = new System.Drawing.Point(7, 41);
+            this.dateBaslangic.Margin = new System.Windows.Forms.Padding(2);
             this.dateBaslangic.Name = "dateBaslangic";
             this.dateBaslangic.Size = new System.Drawing.Size(289, 30);
             this.dateBaslangic.TabIndex = 0;
@@ -145,7 +151,8 @@ namespace magaza_satis
             // 
             this.panelUrunGrubu.Controls.Add(this.lUrunGrubu);
             this.panelUrunGrubu.Controls.Add(this.cmbUrunGrubu);
-            this.panelUrunGrubu.Location = new System.Drawing.Point(6, 239);
+            this.panelUrunGrubu.Location = new System.Drawing.Point(4, 194);
+            this.panelUrunGrubu.Margin = new System.Windows.Forms.Padding(2);
             this.panelUrunGrubu.Name = "panelUrunGrubu";
             this.panelUrunGrubu.Size = new System.Drawing.Size(306, 100);
             this.panelUrunGrubu.TabIndex = 6;
@@ -155,9 +162,10 @@ namespace magaza_satis
             this.cmbUrunGrubu.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbUrunGrubu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cmbUrunGrubu.FormattingEnabled = true;
-            this.cmbUrunGrubu.Location = new System.Drawing.Point(2, 42);
+            this.cmbUrunGrubu.Location = new System.Drawing.Point(2, 34);
+            this.cmbUrunGrubu.Margin = new System.Windows.Forms.Padding(2);
             this.cmbUrunGrubu.Name = "cmbUrunGrubu";
-            this.cmbUrunGrubu.Size = new System.Drawing.Size(293, 33);
+            this.cmbUrunGrubu.Size = new System.Drawing.Size(221, 28);
             this.cmbUrunGrubu.TabIndex = 5;
             // 
             // panelFiltrelemeTuru
@@ -165,7 +173,8 @@ namespace magaza_satis
             this.panelFiltrelemeTuru.Controls.Add(this.rdUrunGrubunaGore);
             this.panelFiltrelemeTuru.Controls.Add(this.lFiltrelemeTuru);
             this.panelFiltrelemeTuru.Controls.Add(this.rdTumu);
-            this.panelFiltrelemeTuru.Location = new System.Drawing.Point(3, 98);
+            this.panelFiltrelemeTuru.Location = new System.Drawing.Point(2, 80);
+            this.panelFiltrelemeTuru.Margin = new System.Windows.Forms.Padding(2);
             this.panelFiltrelemeTuru.Name = "panelFiltrelemeTuru";
             this.panelFiltrelemeTuru.Size = new System.Drawing.Size(309, 135);
             this.panelFiltrelemeTuru.TabIndex = 4;
@@ -175,9 +184,10 @@ namespace magaza_satis
             this.rdUrunGrubunaGore.AutoSize = true;
             this.rdUrunGrubunaGore.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rdUrunGrubunaGore.ForeColor = System.Drawing.Color.DarkCyan;
-            this.rdUrunGrubunaGore.Location = new System.Drawing.Point(3, 84);
+            this.rdUrunGrubunaGore.Location = new System.Drawing.Point(2, 68);
+            this.rdUrunGrubunaGore.Margin = new System.Windows.Forms.Padding(2);
             this.rdUrunGrubunaGore.Name = "rdUrunGrubunaGore";
-            this.rdUrunGrubunaGore.Size = new System.Drawing.Size(204, 29);
+            this.rdUrunGrubunaGore.Size = new System.Drawing.Size(169, 24);
             this.rdUrunGrubunaGore.TabIndex = 4;
             this.rdUrunGrubunaGore.TabStop = true;
             this.rdUrunGrubunaGore.Text = "Ürün Grubuna Göre";
@@ -188,9 +198,10 @@ namespace magaza_satis
             this.rdTumu.AutoSize = true;
             this.rdTumu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rdTumu.ForeColor = System.Drawing.Color.DarkCyan;
-            this.rdTumu.Location = new System.Drawing.Point(3, 49);
+            this.rdTumu.Location = new System.Drawing.Point(2, 40);
+            this.rdTumu.Margin = new System.Windows.Forms.Padding(2);
             this.rdTumu.Name = "rdTumu";
-            this.rdTumu.Size = new System.Drawing.Size(84, 29);
+            this.rdTumu.Size = new System.Drawing.Size(67, 24);
             this.rdTumu.TabIndex = 3;
             this.rdTumu.TabStop = true;
             this.rdTumu.Text = "Tümü";
@@ -208,6 +219,7 @@ namespace magaza_satis
             // splitCUrunGrid.Panel1
             // 
             this.splitCUrunGrid.Panel1.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.splitCUrunGrid.Panel1.Controls.Add(this.lKullanici);
             this.splitCUrunGrid.Panel1.Controls.Add(this.tUrunAra);
             this.splitCUrunGrid.Panel1.Controls.Add(this.lUrunAra);
             // 
@@ -288,13 +300,25 @@ namespace magaza_satis
             this.lFiltrelemeTuru.TabIndex = 2;
             this.lFiltrelemeTuru.Text = "Filtreleme Türü";
             // 
+            // lKullanici
+            // 
+            this.lKullanici.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lKullanici.AutoSize = true;
+            this.lKullanici.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lKullanici.ForeColor = System.Drawing.Color.DarkCyan;
+            this.lKullanici.Location = new System.Drawing.Point(581, 18);
+            this.lKullanici.Name = "lKullanici";
+            this.lKullanici.Size = new System.Drawing.Size(83, 20);
+            this.lKullanici.TabIndex = 2;
+            this.lKullanici.Text = "lStandart3";
+            // 
             // tUrunAra
             // 
             this.tUrunAra.BackColor = System.Drawing.Color.White;
             this.tUrunAra.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.tUrunAra.Location = new System.Drawing.Point(99, 23);
             this.tUrunAra.Name = "tUrunAra";
-            this.tUrunAra.Size = new System.Drawing.Size(387, 30);
+            this.tUrunAra.Size = new System.Drawing.Size(291, 26);
             this.tUrunAra.TabIndex = 1;
             this.tUrunAra.TextChanged += new System.EventHandler(this.tUrunAra_TextChanged);
             // 
@@ -303,9 +327,10 @@ namespace magaza_satis
             this.lUrunAra.AutoSize = true;
             this.lUrunAra.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lUrunAra.ForeColor = System.Drawing.Color.DarkCyan;
-            this.lUrunAra.Location = new System.Drawing.Point(3, 23);
+            this.lUrunAra.Location = new System.Drawing.Point(2, 19);
+            this.lUrunAra.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lUrunAra.Name = "lUrunAra";
-            this.lUrunAra.Size = new System.Drawing.Size(90, 25);
+            this.lUrunAra.Size = new System.Drawing.Size(73, 20);
             this.lUrunAra.TabIndex = 0;
             this.lUrunAra.Text = "Ürün Ara";
             // 
@@ -362,11 +387,12 @@ namespace magaza_satis
             // 
             // fStok
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Info;
-            this.ClientSize = new System.Drawing.Size(1322, 670);
+            this.ClientSize = new System.Drawing.Size(992, 544);
             this.Controls.Add(this.splitCGenel);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "fStok";
             this.Text = "Stok İzleme";
             this.Load += new System.EventHandler(this.fStok_Load);
@@ -415,5 +441,6 @@ namespace magaza_satis
         private tStandart tUrunAra;
         private lStandart lUrunAra;
         private gridOzel gridListe;
+        internal lStandart lKullanici;
     }
 }

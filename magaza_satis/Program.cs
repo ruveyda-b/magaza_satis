@@ -16,7 +16,7 @@ namespace magaza_satis
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new fStok());
+            Application.Run(new fBaslangic());
         }
     }
 }
