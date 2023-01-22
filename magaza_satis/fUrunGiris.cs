@@ -94,11 +94,11 @@ namespace magaza_satis
                         db.SaveChanges();
                     }
 
-                    FormuTemizle();
-
                     gridUrunler.DataSource = db.Urun.OrderByDescending(a => a.UrunId).Take(20).ToList();
                     Islemler.GridDuzenle(gridUrunler);
                 }
+                Islemler.StokHareket(tBarkod.Text,tUrunAdi.Text,"Adet",Convert.ToDouble(tMiktar.Text),cmbUrunGrubu.Text,lKullanici.Text);
+                FormuTemizle();
             }
             else
             {
