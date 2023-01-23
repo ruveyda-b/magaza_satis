@@ -306,7 +306,7 @@ namespace magaza_satis
             this.lKullanici.AutoSize = true;
             this.lKullanici.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.lKullanici.ForeColor = System.Drawing.Color.DarkCyan;
-            this.lKullanici.Location = new System.Drawing.Point(578, 9);
+            this.lKullanici.Location = new System.Drawing.Point(525, 9);
             this.lKullanici.Name = "lKullanici";
             this.lKullanici.Size = new System.Drawing.Size(83, 20);
             this.lKullanici.TabIndex = 2;
