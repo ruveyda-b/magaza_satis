@@ -29,18 +29,18 @@ namespace magaza_satis
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
             this.splitCsol = new System.Windows.Forms.SplitContainer();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -176,7 +176,7 @@ namespace magaza_satis
             this.splitCsol.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitCsol.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
             this.splitCsol.Location = new System.Drawing.Point(0, 0);
-            this.splitCsol.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.splitCsol.Margin = new System.Windows.Forms.Padding(2);
             this.splitCsol.Name = "splitCsol";
             // 
             // splitCsol.Panel1
@@ -224,7 +224,7 @@ namespace magaza_satis
             this.panel1.Controls.Add(this.tBarkod);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(2, 2);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(631, 109);
             this.panel1.TabIndex = 0;
@@ -236,15 +236,15 @@ namespace magaza_satis
             this.gridBekle.BackgroundColor = System.Drawing.SystemColors.Info;
             this.gridBekle.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.gridBekle.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(3);
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.gridBekle.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle13.Padding = new System.Windows.Forms.Padding(3);
+            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.gridBekle.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
             this.gridBekle.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gridBekle.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
@@ -259,7 +259,7 @@ namespace magaza_satis
             this.dataGridViewImageColumn1});
             this.gridBekle.EnableHeadersVisualStyles = false;
             this.gridBekle.Location = new System.Drawing.Point(186, 9);
-            this.gridBekle.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gridBekle.Margin = new System.Windows.Forms.Padding(2);
             this.gridBekle.Name = "gridBekle";
             this.gridBekle.RowHeadersVisible = false;
             this.gridBekle.RowHeadersWidth = 51;
@@ -274,8 +274,8 @@ namespace magaza_satis
             // 
             // dataGridViewTextBoxColumn1
             // 
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle14;
             this.dataGridViewTextBoxColumn1.HeaderText = "Barkod";
             this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
@@ -295,36 +295,36 @@ namespace magaza_satis
             // 
             // dataGridViewTextBoxColumn4
             // 
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridViewTextBoxColumn4.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewTextBoxColumn4.DefaultCellStyle = dataGridViewCellStyle15;
             this.dataGridViewTextBoxColumn4.HeaderText = "Birim";
             this.dataGridViewTextBoxColumn4.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             // 
             // dataGridViewTextBoxColumn5
             // 
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle4.Format = "C2";
-            dataGridViewCellStyle4.NullValue = null;
-            this.dataGridViewTextBoxColumn5.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle16.Format = "C2";
+            dataGridViewCellStyle16.NullValue = null;
+            this.dataGridViewTextBoxColumn5.DefaultCellStyle = dataGridViewCellStyle16;
             this.dataGridViewTextBoxColumn5.HeaderText = "Fiyat";
             this.dataGridViewTextBoxColumn5.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
             // 
             // dataGridViewTextBoxColumn6
             // 
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridViewTextBoxColumn6.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewTextBoxColumn6.DefaultCellStyle = dataGridViewCellStyle17;
             this.dataGridViewTextBoxColumn6.HeaderText = "Miktar";
             this.dataGridViewTextBoxColumn6.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
             // 
             // dataGridViewTextBoxColumn7
             // 
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle6.Format = "C2";
-            dataGridViewCellStyle6.NullValue = null;
-            this.dataGridViewTextBoxColumn7.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle18.Format = "C2";
+            dataGridViewCellStyle18.NullValue = null;
+            this.dataGridViewTextBoxColumn7.DefaultCellStyle = dataGridViewCellStyle18;
             this.dataGridViewTextBoxColumn7.HeaderText = "Toplam";
             this.dataGridViewTextBoxColumn7.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
@@ -393,7 +393,7 @@ namespace magaza_satis
             this.chSatisIadeİslemi.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.chSatisIadeİslemi.ForeColor = System.Drawing.Color.White;
             this.chSatisIadeİslemi.Location = new System.Drawing.Point(11, 15);
-            this.chSatisIadeİslemi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.chSatisIadeİslemi.Margin = new System.Windows.Forms.Padding(2);
             this.chSatisIadeİslemi.Name = "chSatisIadeİslemi";
             this.chSatisIadeİslemi.Size = new System.Drawing.Size(110, 28);
             this.chSatisIadeİslemi.TabIndex = 4;
@@ -416,7 +416,7 @@ namespace magaza_satis
             // 
             this.tMiktar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tMiktar.Location = new System.Drawing.Point(8, 71);
-            this.tMiktar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tMiktar.Margin = new System.Windows.Forms.Padding(2);
             this.tMiktar.Name = "tMiktar";
             this.tMiktar.Size = new System.Drawing.Size(76, 26);
             this.tMiktar.TabIndex = 2;
@@ -440,7 +440,7 @@ namespace magaza_satis
             // 
             this.tBarkod.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tBarkod.Location = new System.Drawing.Point(103, 71);
-            this.tBarkod.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tBarkod.Margin = new System.Windows.Forms.Padding(2);
             this.tBarkod.Name = "tBarkod";
             this.tBarkod.Size = new System.Drawing.Size(265, 26);
             this.tBarkod.TabIndex = 0;
@@ -454,15 +454,15 @@ namespace magaza_satis
             this.gridSatisListesi.BackgroundColor = System.Drawing.SystemColors.Info;
             this.gridSatisListesi.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.gridSatisListesi.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.Padding = new System.Windows.Forms.Padding(3);
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.gridSatisListesi.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataGridViewCellStyle19.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle19.Padding = new System.Windows.Forms.Padding(3);
+            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.gridSatisListesi.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle19;
             this.gridSatisListesi.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gridSatisListesi.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Barkod,
@@ -478,7 +478,7 @@ namespace magaza_satis
             this.gridSatisListesi.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridSatisListesi.EnableHeadersVisualStyles = false;
             this.gridSatisListesi.Location = new System.Drawing.Point(2, 115);
-            this.gridSatisListesi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gridSatisListesi.Margin = new System.Windows.Forms.Padding(2);
             this.gridSatisListesi.Name = "gridSatisListesi";
             this.gridSatisListesi.RowHeadersVisible = false;
             this.gridSatisListesi.RowHeadersWidth = 51;
@@ -494,8 +494,8 @@ namespace magaza_satis
             // 
             // Barkod
             // 
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            this.Barkod.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            this.Barkod.DefaultCellStyle = dataGridViewCellStyle20;
             this.Barkod.HeaderText = "Barkod";
             this.Barkod.MinimumWidth = 6;
             this.Barkod.Name = "Barkod";
@@ -515,36 +515,36 @@ namespace magaza_satis
             // 
             // Birim
             // 
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Birim.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Birim.DefaultCellStyle = dataGridViewCellStyle21;
             this.Birim.HeaderText = "Birim";
             this.Birim.MinimumWidth = 6;
             this.Birim.Name = "Birim";
             // 
             // fiyat
             // 
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle10.Format = "C2";
-            dataGridViewCellStyle10.NullValue = null;
-            this.fiyat.DefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle22.Format = "C2";
+            dataGridViewCellStyle22.NullValue = null;
+            this.fiyat.DefaultCellStyle = dataGridViewCellStyle22;
             this.fiyat.HeaderText = "Fiyat";
             this.fiyat.MinimumWidth = 6;
             this.fiyat.Name = "fiyat";
             // 
             // miktar
             // 
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.miktar.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.miktar.DefaultCellStyle = dataGridViewCellStyle23;
             this.miktar.HeaderText = "Miktar";
             this.miktar.MinimumWidth = 6;
             this.miktar.Name = "miktar";
             // 
             // toplam
             // 
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle12.Format = "C2";
-            dataGridViewCellStyle12.NullValue = null;
-            this.toplam.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle24.Format = "C2";
+            dataGridViewCellStyle24.NullValue = null;
+            this.toplam.DefaultCellStyle = dataGridViewCellStyle24;
             this.toplam.HeaderText = "Toplam";
             this.toplam.MinimumWidth = 6;
             this.toplam.Name = "toplam";
@@ -725,7 +725,7 @@ namespace magaza_satis
             this.tOdenen.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tOdenen.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tOdenen.Location = new System.Drawing.Point(2, 48);
-            this.tOdenen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tOdenen.Margin = new System.Windows.Forms.Padding(2);
             this.tOdenen.Name = "tOdenen";
             this.tOdenen.Size = new System.Drawing.Size(123, 23);
             this.tOdenen.TabIndex = 2;
@@ -770,7 +770,7 @@ namespace magaza_satis
             this.tParaUstu.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tParaUstu.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tParaUstu.Location = new System.Drawing.Point(2, 48);
-            this.tParaUstu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tParaUstu.Margin = new System.Windows.Forms.Padding(2);
             this.tParaUstu.Name = "tParaUstu";
             this.tParaUstu.Size = new System.Drawing.Size(123, 23);
             this.tParaUstu.TabIndex = 3;
@@ -1866,8 +1866,9 @@ namespace magaza_satis
             this.ClientSize = new System.Drawing.Size(1060, 587);
             this.Controls.Add(this.splitCsol);
             this.KeyPreview = true;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "fSatis";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Barkodlu Satış Programı";
             this.Load += new System.EventHandler(this.fSatis_Load);
             this.Click += new System.EventHandler(this.HizliButonClick);

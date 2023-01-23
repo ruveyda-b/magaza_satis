@@ -175,6 +175,7 @@
             this.bKullaniciDegistir.Text = "Kullanıcı Değiştir";
             this.bKullaniciDegistir.UseMnemonic = false;
             this.bKullaniciDegistir.UseVisualStyleBackColor = false;
+            this.bKullaniciDegistir.Click += new System.EventHandler(this.bKullaniciDegistir_Click);
             // 
             // bCikis
             // 
@@ -227,14 +228,14 @@
         #endregion
 
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Button bYedekle;
-        private System.Windows.Forms.Button bUrunGiris;
-        private System.Windows.Forms.Button bFiyatGuncelleme;
-        private System.Windows.Forms.Button bStokTakibi;
-        private System.Windows.Forms.Button bSatisİslemi;
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.Button bKullaniciDegistir;
         private System.Windows.Forms.Button bCikis;
-        private System.Windows.Forms.Label lKullanici;
+        public System.Windows.Forms.Button bYedekle;
+        public System.Windows.Forms.Button bUrunGiris;
+        public System.Windows.Forms.Button bFiyatGuncelleme;
+        public System.Windows.Forms.Button bStokTakibi;
+        public System.Windows.Forms.Button bSatisİslemi;
+        public System.Windows.Forms.Label lKullanici;
     }
 }

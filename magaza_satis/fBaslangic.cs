@@ -48,5 +48,12 @@ namespace magaza_satis
         {
             Application.Exit();
         }
+
+        private void bKullaniciDegistir_Click(object sender, EventArgs e)
+        {
+            fLogin login = new fLogin();
+            login.Show();
+            this.Hide();
+        }
     }
 }
